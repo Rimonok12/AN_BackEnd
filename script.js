@@ -61,7 +61,7 @@ app.listen(process.env.PORT || 3000,() => {
 
 //2nd:
 app.get('/', (req, res) => {
-    res.send("IT IS WORKING")
+    res.send(database.users ,"it IS WORKING")
 })
 
 //3.signin:
